@@ -31,7 +31,7 @@ export default function Home() {
     }) as signInType;
     if (res.ok) {
       setLoading(false)
-      router.push(router.query?.callbackUrl as string);
+      router.push(router.query?.callbackUrl as string || '/dashboard/app');
     } else {
       setLoading(false)
       toast('Email atau Password yang anda masukan salah', {
