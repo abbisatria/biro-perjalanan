@@ -19,11 +19,11 @@ export default function BottomBar() {
                     <Image src={Overview} alt='home' />
                     <p className="item-title">Home</p>
                 </NavLink>
-                <NavLink href="/expense" className={pathname === '/dashboard/profile' ? 'active-menu d-flex flex-column align-items-center' : 'd-flex flex-column align-items-center'}>
+                <NavLink href="/dashboard/profile" className={pathname === '/dashboard/profile' ? 'active-menu d-flex flex-column align-items-center' : 'd-flex flex-column align-items-center'}>
                     <Image src={Setting} alt='profile' />
                     <p className="item-title">Profile</p>
                 </NavLink>
-                <NavLink href="" className="d-flex flex-column align-items-center" onClick={handleLogout}>
+                <NavLink className="d-flex flex-column align-items-center" onClick={handleLogout}>
                     <Image src={Logout} alt='logout' />
                     <p className="item-title">Logout</p>
                 </NavLink>

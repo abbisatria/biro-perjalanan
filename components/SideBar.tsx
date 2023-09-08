@@ -48,10 +48,10 @@ export default function SideBar() {
                     <div className="me-3">
                         <Image src={Logout} alt='logout' />
                     </div>
-                    <p className="item-title m-0" onClick={handleLogout}>
-                        <Link href="">
+                    <p className="item-title-logout m-0" onClick={handleLogout}>
+                        <a>
                             Logout
-                        </Link>
+                        </a>
                     </p>
                 </div>
             </div>
