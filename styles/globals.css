@@ -105,3 +105,30 @@ a {
     color-scheme: dark;
   }
 }
+
+.bg-login {
+  min-height: 100vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(43, 21, 107, 0.8),
+      rgba(43, 21, 107, 0.8)
+    ),
+    url("https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80");
+  background-size: cover;
+  color: white;
+  padding: 3rem;
+}
+
+.title {
+  margin-top: 2rem;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #4D17E2;
+}
+
+.pointer {
+  cursor: pointer;
+}
